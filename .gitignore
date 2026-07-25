@@ -1,0 +1,21 @@
+# KiCad backups
+*-bak
+*.bak
+*-save.pro
+*.tmp
+
+# Autosave files
+*.autosave
+
+# Lock files
+*.lck
+
+# Python cache
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
