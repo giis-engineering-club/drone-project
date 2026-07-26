@@ -4,5 +4,5 @@ z# VS Code Local History
 # Lock files
 *.lck
 
-# Ignore this gitignore file itself
+# Ignore this gitignore file itself, but apparently does NOTHING
 .gitignore
