@@ -260,7 +260,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_driven|1270000|850900|6af6057b-498c-4ec3-8982-0e217ea9098b|00000000-0000-0000-0000-000000000000|/e6976ec9-a7da-469c-af5d-21168aa86415/4d328196-d283-493c-9315-248ed01666eb|/e6976ec9-a7da-469c-af5d-21168aa86415/4d328196-d283-493c-9315-248ed01666eb|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -488,7 +493,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "io_connectors.kicad_pro",
+    "filename": "kicad_project.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -526,7 +531,6 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -590,18 +594,6 @@
         },
         {
           "group_by": true,
-          "label": "Exclude from Simulation",
-          "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Position Files",
-          "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -656,18 +648,34 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "io_connectors.kicad_sch",
+        "filename": "kicad_project.kicad_sch",
         "name": "Root",
-        "uuid": "7c5aa723-39b4-46fe-b739-0614ffe4d46b"
+        "uuid": "e6976ec9-a7da-469c-af5d-21168aa86415"
       }
     ],
-    "used_designators": "J1-8",
+    "used_designators": "J_RADIO1,J_ESC1,J_MINI1,C1-14,U1-4,SW1-2,J1-9,J_LIPO_IN1,#FLG1-7,L1,#PWR1-2,#PWR7-34,D1,R1-11",
     "variants": []
   },
   "sheets": [
     [
-      "7c5aa723-39b4-46fe-b739-0614ffe4d46b",
+      "e6976ec9-a7da-469c-af5d-21168aa86415",
       "Root"
+    ],
+    [
+      "4d328196-d283-493c-9315-248ed01666eb",
+      "sensors_imu"
+    ],
+    [
+      "98e465d4-e4c1-406b-aa77-6502b546afc3",
+      "PDN"
+    ],
+    [
+      "dfdde91a-2ddd-455a-9beb-1c037687c38a",
+      "MCU_ESP32"
+    ],
+    [
+      "34907de2-e8d5-4fb9-b8f3-d139ab9ca376",
+      "IO connectors"
     ]
   ],
   "text_variables": {},

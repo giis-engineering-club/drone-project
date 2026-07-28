@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "io_connectors.kicad_prl",
+    "filename": "kicad_project.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

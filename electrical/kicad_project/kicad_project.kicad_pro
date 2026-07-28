@@ -653,7 +653,7 @@
         "uuid": "e6976ec9-a7da-469c-af5d-21168aa86415"
       }
     ],
-    "used_designators": "#PWR7-10,R2-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -664,6 +664,18 @@
     [
       "4d328196-d283-493c-9315-248ed01666eb",
       "sensors_imu"
+    ],
+    [
+      "98e465d4-e4c1-406b-aa77-6502b546afc3",
+      "PDN"
+    ],
+    [
+      "dfdde91a-2ddd-455a-9beb-1c037687c38a",
+      "MCU_ESP32"
+    ],
+    [
+      "34907de2-e8d5-4fb9-b8f3-d139ab9ca376",
+      "IO connectors"
     ]
   ],
   "text_variables": {},
