@@ -2288,85 +2288,93 @@
 		)
 		(uuid "fef727f3-dc2b-41e7-b78d-d4225bb0fd82")
 	)
-	(label "MISO"
-		(at 127 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "00554b9a-9e53-45d1-b094-0cfe21a335ee")
-	)
-	(label "DSHOT_M1"
+	(hierarchical_label "DSHOT_M1"
+		(shape input)
 		(at 127 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "0d94e670-847d-4ed0-9399-0367ac2131b9")
+		(uuid "0f7a19b6-db9e-42e6-b754-48c1d3653b1e")
 	)
-	(label "DSHOT_M2"
-		(at 127 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f437fa6-e1a2-414d-9dcf-ac7f5a5a7151")
-	)
-	(label "SPI_SCK"
-		(at 127 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "37e34841-0555-4d3e-bfd7-9e124c6fdba1")
-	)
-	(label "IMU_CS"
-		(at 127 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6380e3e0-e69d-4f8c-9493-bee10690a515")
-	)
-	(label "DSHOT_M3"
-		(at 127 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83fa8033-4329-4fff-97b4-d6059c8fb398")
-	)
-	(label "MOSI"
+	(hierarchical_label "MOSI"
+		(shape input)
 		(at 127 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "b119cc9e-1ada-4124-b7b5-2ec30e990807")
+		(uuid "49cf4ea9-df10-4f8b-a99e-17d7baed80d1")
 	)
-	(label "DSHOT_M4"
+	(hierarchical_label "IMU_CS"
+		(shape input)
+		(at 127 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7cc0bdae-787c-48ef-b099-f4fe37b01cdd")
+	)
+	(hierarchical_label "SPI_SCK"
+		(shape input)
+		(at 127 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ebd2c91-c51a-4b6a-a779-fdd62e6b3f9d")
+	)
+	(hierarchical_label "DSHOT_M2"
+		(shape input)
+		(at 127 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac830bd6-93ea-4d35-979a-4c94425a9b5a")
+	)
+	(hierarchical_label "DSHOT_M3"
+		(shape input)
+		(at 127 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c77bfd4e-189a-4263-ae04-04892b3f3d3d")
+	)
+	(hierarchical_label "DSHOT_M4"
+		(shape input)
 		(at 127 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "bae7bca4-e12b-494e-b1e3-82231dc8c87d")
+		(uuid "c7fe914f-a3b3-4075-8d92-98c2df9df7a5")
+	)
+	(hierarchical_label "MISO"
+		(shape input)
+		(at 127 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff944374-3698-4bff-9cff-916349f656fc")
 	)
 	(symbol
 		(lib_id "Device:C")
