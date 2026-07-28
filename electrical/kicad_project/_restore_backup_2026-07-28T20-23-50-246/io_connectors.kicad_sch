@@ -768,6 +768,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 82.55) (xy 116.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f5a8abd-054f-4ab0-a7e3-f8ea1b029c2d")
+	)
+	(wire
+		(pts
 			(xy 71.12 82.55) (xy 74.93 82.55)
 		)
 		(stroke
@@ -775,16 +785,6 @@
 			(type default)
 		)
 		(uuid "90a69ee8-feae-42b6-a304-2433d828787d")
-	)
-	(wire
-		(pts
-			(xy 113.03 82.55) (xy 116.84 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeeffc3f-b95a-4520-8a98-71d18367b081")
 	)
 	(wire
 		(pts
@@ -1148,7 +1148,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 113.03 82.55 0)
+		(at 114.3 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1157,9 +1157,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "87971d2a-fa60-490d-a9fb-583ff814837a")
-		(property "Reference" "#FLG06"
-			(at 113.03 80.645 0)
+		(uuid "abc30608-8606-4d81-8d09-dc7ca20449c0")
+		(property "Reference" "#FLG01"
+			(at 114.3 80.645 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1170,7 +1170,7 @@
 			)
 		)
 		(property "Value" "+5V_DIRTY"
-			(at 113.03 77.47 0)
+			(at 114.3 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1180,7 +1180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 82.55 0)
+			(at 114.3 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1191,7 +1191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 82.55 0)
+			(at 114.3 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1202,7 +1202,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 113.03 82.55 0)
+			(at 114.3 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1213,12 +1213,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4a6d730-8a45-42ff-ace7-c42341701cc0")
+			(uuid "604b5b11-ae71-4749-a696-a201ed3b0ca7")
 		)
 		(instances
 			(project "kicad_project"
 				(path "/e6976ec9-a7da-469c-af5d-21168aa86415/34907de2-e8d5-4fb9-b8f3-d139ab9ca376"
-					(reference "#FLG06")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

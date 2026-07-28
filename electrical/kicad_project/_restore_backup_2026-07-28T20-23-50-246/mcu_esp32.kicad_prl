@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "io_connectors.kicad_prl",
+    "filename": "mcu_esp32.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

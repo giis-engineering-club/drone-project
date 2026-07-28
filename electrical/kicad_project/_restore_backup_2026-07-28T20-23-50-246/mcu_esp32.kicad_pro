@@ -41,7 +41,7 @@
         "pads": {
           "drill": 0.8,
           "height": 1.27,
-          "width": 2.54
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "io_connectors.kicad_pro",
+    "filename": "mcu_esp32.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -656,17 +656,17 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "io_connectors.kicad_sch",
+        "filename": "mcu_esp32.kicad_sch",
         "name": "Root",
-        "uuid": "7c5aa723-39b4-46fe-b739-0614ffe4d46b"
+        "uuid": "a9cbd59c-3d74-4f47-8c78-058e3cfe3c2e"
       }
     ],
-    "used_designators": "J1-8",
+    "used_designators": "R1-2,U1,#FLG1-4,C1-3,#PWR1-10,J1,SW1-2",
     "variants": []
   },
   "sheets": [
     [
-      "7c5aa723-39b4-46fe-b739-0614ffe4d46b",
+      "a9cbd59c-3d74-4f47-8c78-058e3cfe3c2e",
       "Root"
     ]
   ],
