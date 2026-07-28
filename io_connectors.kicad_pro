@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "power_distribution.kicad_pro",
+    "filename": "io_connectors.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -424,17 +424,17 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "power_distribution.kicad_sch",
+        "filename": "io_connectors.kicad_sch",
         "name": "Root",
-        "uuid": "58bec9b6-f41b-448f-bb0a-5f8211bf628c"
+        "uuid": "7c5aa723-39b4-46fe-b739-0614ffe4d46b"
       }
     ],
-    "used_designators": "J_LIPO_IN1,R1-2,C1-4,#PWR1-12,J1-2,#FLG1-2,U1",
+    "used_designators": "J1-8",
     "variants": []
   },
   "sheets": [
     [
-      "58bec9b6-f41b-448f-bb0a-5f8211bf628c",
+      "7c5aa723-39b4-46fe-b739-0614ffe4d46b",
       "Root"
     ]
   ],
