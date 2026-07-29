@@ -778,13 +778,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 82.55) (xy 116.84 82.55)
+			(xy 111.76 82.55) (xy 116.84 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aeeffc3f-b95a-4520-8a98-71d18367b081")
+		(uuid "91f79e24-ce9a-4d67-95bb-6b40452b8b21")
 	)
 	(wire
 		(pts
@@ -1148,7 +1148,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 113.03 82.55 0)
+		(at 111.76 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1159,7 +1159,7 @@
 		(fields_autoplaced yes)
 		(uuid "87971d2a-fa60-490d-a9fb-583ff814837a")
 		(property "Reference" "#FLG06"
-			(at 113.03 80.645 0)
+			(at 111.76 80.645 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1170,7 +1170,7 @@
 			)
 		)
 		(property "Value" "+5V_DIRTY"
-			(at 113.03 77.47 0)
+			(at 111.76 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1180,7 +1180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 82.55 0)
+			(at 111.76 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1191,7 +1191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 82.55 0)
+			(at 111.76 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1202,7 +1202,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 113.03 82.55 0)
+			(at 111.76 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

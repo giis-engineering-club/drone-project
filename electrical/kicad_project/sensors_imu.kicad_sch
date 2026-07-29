@@ -161,6 +161,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -905,28 +1070,137 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(text "LAYOUT NOTE: Place 100nF caps < 2mm from VDD pins.\n"
+	(text "MECHANICAL: Soft-mount PCB with Silicone Grommets. \nTune durometer to damp >100Hz motor noise without \nintroducing low-frequency oscillation."
 		(exclude_from_sim no)
-		(at 108.712 32.004 0)
+		(at 133.35 36.068 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "daa3c760-d56f-4f02-8f94-5ea1597874be")
+		(uuid "2b846671-600d-437c-a552-bb179bb44fca")
 	)
 	(junction
-		(at 93.98 52.07)
+		(at 91.44 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33ad8354-8562-4f96-adae-7337d3904afb")
-	)
-	(junction
-		(at 123.19 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c411bca-1100-4bfb-8cf0-039aeebf8853")
 	)
 	(junction
 		(at 87.63 67.31)
@@ -935,10 +1209,16 @@
 		(uuid "55a58915-4297-45b6-bc6e-eda00b8fe753")
 	)
 	(junction
-		(at 118.11 68.58)
+		(at 114.3 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e505cb9-6385-4d39-8567-27759e9c4882")
+		(uuid "ae8a7dfd-cba9-4d2f-b554-002880b5d612")
+	)
+	(junction
+		(at 119.38 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b734868f-2455-4c57-85c2-693c81e8e3b8")
 	)
 	(no_connect
 		(at 97.79 55.88)
@@ -976,23 +1256,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 66.04) (xy 125.73 66.04)
+			(xy 113.03 66.04) (xy 119.38 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "167b6e05-7bf9-4ee3-b1f1-ccb7a35ea95a")
-	)
-	(wire
-		(pts
-			(xy 93.98 44.45) (xy 96.52 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a4ecf88-3cd6-4cbb-bb7b-0b8c5ee7a1be")
 	)
 	(wire
 		(pts
@@ -1026,7 +1296,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 52.07) (xy 100.33 52.07)
+			(xy 91.44 52.07) (xy 100.33 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1046,7 +1316,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 52.07) (xy 93.98 52.07)
+			(xy 87.63 52.07) (xy 91.44 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1066,7 +1336,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 68.58) (xy 118.11 68.58)
+			(xy 114.3 68.58) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82618705-d82d-43ab-ae70-7b1217bf84a0")
+	)
+	(wire
+		(pts
+			(xy 113.03 68.58) (xy 114.3 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1116,23 +1396,33 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 76.2) (xy 118.11 68.58)
+			(xy 114.3 86.36) (xy 114.3 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c45a6044-f790-485e-9c0e-3642f4f4c48d")
+		(uuid "bd614942-f7a3-4439-864d-8feb100ead27")
 	)
 	(wire
 		(pts
-			(xy 123.19 50.8) (xy 123.19 66.04)
+			(xy 73.66 41.91) (xy 81.28 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d212c4c5-ef0c-4e9f-8944-0b282d3eaf09")
+		(uuid "c23f6243-342f-4b68-a4e5-d529cdf168ee")
+	)
+	(wire
+		(pts
+			(xy 119.38 52.07) (xy 119.38 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2eb718d-1fe3-4ef0-bd93-de6fb6908f51")
 	)
 	(wire
 		(pts
@@ -1146,6 +1436,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 38.1) (xy 81.28 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca66e7f-df7d-4cb7-81bb-8de2f05cc1df")
+	)
+	(wire
+		(pts
 			(xy 125.73 54.61) (xy 128.27 54.61)
 		)
 		(stroke
@@ -1156,33 +1456,73 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 68.58) (xy 121.92 68.58)
+			(xy 81.28 27.94) (xy 81.28 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e802ac9c-b796-44f7-b10c-4a1e000bd714")
+		(uuid "dfbec25c-920a-4715-b4d4-ba12728b5981")
 	)
 	(wire
 		(pts
-			(xy 114.3 76.2) (xy 118.11 76.2)
+			(xy 76.2 27.94) (xy 81.28 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5613285-673c-42ee-a7d7-eebd436176d6")
+		(uuid "e26e32f8-9807-42c1-9bbe-f603aba94084")
 	)
 	(wire
 		(pts
-			(xy 113.03 66.04) (xy 123.19 66.04)
+			(xy 119.38 66.04) (xy 125.73 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fef0fa14-f73c-49b8-9b4d-86d5958e7fd9")
+		(uuid "e5e75394-51d0-4bc1-9b69-595297cc46d2")
+	)
+	(label "+3V3_IMU"
+		(at 119.38 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "500609d4-0074-4c3f-a500-cfe2060c6bf3")
+	)
+	(label "+3V3_IMU"
+		(at 91.44 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "510882b7-9607-4679-ad0b-4831263ae961")
+	)
+	(label "+3V3_IMU"
+		(at 114.3 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53f753cf-5228-407c-9674-0a5a3088dbc5")
+	)
+	(label "+3V3_IMU"
+		(at 81.28 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1f5f4a9-d615-4c3a-a3ca-d13dea797e04")
 	)
 	(hierarchical_label "MISO"
 		(shape output)
@@ -1219,7 +1559,7 @@
 	)
 	(hierarchical_label "IMU_CS"
 		(shape input)
-		(at 90.17 52.07 180)
+		(at 87.63 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1390,7 +1730,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 93.98 48.26 0)
+		(at 91.44 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1401,7 +1741,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d58e083-e7c4-43c1-8e0e-4595bcff5b6b")
 		(property "Reference" "R1"
-			(at 96.52 46.9899 0)
+			(at 93.98 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1412,7 +1752,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 96.52 49.5299 0)
+			(at 93.98 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1423,7 +1763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.202 48.26 90)
+			(at 89.662 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1434,7 +1774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 48.26 0)
+			(at 91.44 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1445,7 +1785,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 93.98 48.26 0)
+			(at 91.44 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1549,8 +1889,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 123.19 50.8 0)
+		(lib_id "Device:FerriteBead")
+		(at 81.28 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1559,30 +1899,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "54d1907c-cead-4a91-a3c2-23245a8f8a88")
-		(property "Reference" "#PWR024"
-			(at 123.19 54.61 0)
-			(hide yes)
+		(uuid "59a8ed4e-446b-4c25-a305-cf3eb286d698")
+		(property "Reference" "FB2"
+			(at 85.09 32.9691 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 123.19 45.72 0)
+		(property "Value" "FerriteBead"
+			(at 85.09 35.5091 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 50.8 0)
+			(at 79.502 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1593,7 +1934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 50.8 0)
+			(at 81.28 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1603,8 +1944,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 123.19 50.8 0)
+		(property "Description" "Ferrite bead"
+			(at 81.28 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1615,12 +1956,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a535bac5-8380-4404-9c6b-fe4b65fdef2d")
+			(uuid "3a4fc504-81d0-4a60-ab84-e5ad98b45262")
+		)
+		(pin "2"
+			(uuid "52333185-a8bc-4315-a5a7-255392978b2b")
 		)
 		(instances
 			(project "kicad_project"
 				(path "/e6976ec9-a7da-469c-af5d-21168aa86415/4d328196-d283-493c-9315-248ed01666eb"
-					(reference "#PWR024")
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -1787,8 +2131,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 114.3 76.2 0)
+		(lib_id "power:PWR_FLAG")
+		(at 76.2 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1797,9 +2141,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bd9be68d-b88d-4fc6-81c5-de070dd88058")
-		(property "Reference" "#PWR022"
-			(at 114.3 80.01 0)
+		(uuid "c7be6ee7-7148-493e-aa91-6714b2048e6e")
+		(property "Reference" "#FLG01"
+			(at 76.2 26.035 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1809,8 +2153,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 114.3 71.12 0)
+		(property "Value" "PWR_FLAG"
+			(at 76.2 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1820,7 +2164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 76.2 0)
+			(at 76.2 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1831,7 +2175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 76.2 0)
+			(at 76.2 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1841,8 +2185,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 114.3 76.2 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 76.2 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1853,12 +2197,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b222930d-d7cb-4e27-9b1a-d36eba778ba6")
+			(uuid "d15679c0-c75b-4fd9-a4ed-7145d6e15d51")
 		)
 		(instances
 			(project "kicad_project"
 				(path "/e6976ec9-a7da-469c-af5d-21168aa86415/4d328196-d283-493c-9315-248ed01666eb"
-					(reference "#PWR022")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -1866,7 +2210,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 96.52 44.45 0)
+		(at 73.66 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1877,7 +2221,7 @@
 		(fields_autoplaced yes)
 		(uuid "d25de9d9-83f5-4c98-bea2-c327a5297dcc")
 		(property "Reference" "#PWR021"
-			(at 96.52 48.26 0)
+			(at 73.66 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1888,7 +2232,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 96.52 39.37 0)
+			(at 73.66 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1898,7 +2242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 44.45 0)
+			(at 73.66 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1909,7 +2253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 44.45 0)
+			(at 73.66 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1920,7 +2264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 44.45 0)
+			(at 73.66 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
